@@ -1,6 +1,7 @@
 import unittest
 from classes.guest import Guest
 from classes.rooms import Room 
+from classes.songs import Songs
 
 class TestRoom(unittest.TestCase):
 
@@ -30,6 +31,9 @@ class TestRoom(unittest.TestCase):
         self.room3.check_out_guest(guest)
         self.assertEqual (0, len(self.room3.guests))
 
-    
+    def test_songs_can_be_added_to_rooms(self):
+        self.room4.add_song_to_room(Songs("Someone like you", "Adele"))
+        self.assertEqual (1, len(self.room4.songs))
+
 
     

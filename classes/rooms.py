@@ -1,5 +1,6 @@
 from getpass import getuser
 from classes.guest import Guest
+from classes.songs import Songs
 
 
 class Room:
@@ -15,7 +16,10 @@ class Room:
     def check_out_guest(self, guest):
         self.guests.remove(guest)
 
+    def add_song_to_room(self, song):
+        self.songs.append(song)
 
+    
 
 
 
