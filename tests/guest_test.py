@@ -15,4 +15,7 @@ class TestGuest(unittest.TestCase):
 
     def test_guest_has_wallet(self):
         self.assertEqual =(100, self.guest4.wallet)
+    
+    
+
 

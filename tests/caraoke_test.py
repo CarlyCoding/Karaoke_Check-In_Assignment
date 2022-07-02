@@ -13,3 +13,4 @@ class TestCaraoke(unittest.TestCase):
         self.assertEqual(6500, self.caraoke.till)
 
     
+        
