@@ -9,6 +9,5 @@ if __name__ == '__main__':
 
 # Need to
 
-# Add songs to rooms when selected.
 # Stop guests from checking in a room if more than 0
 # Check entry fee can be paid for by guest.  

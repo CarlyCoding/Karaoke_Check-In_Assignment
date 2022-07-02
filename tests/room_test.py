@@ -35,5 +35,3 @@ class TestRoom(unittest.TestCase):
         self.room4.add_song_to_room(Songs("Someone like you", "Adele"))
         self.assertEqual (1, len(self.room4.songs))
 
-
-    
