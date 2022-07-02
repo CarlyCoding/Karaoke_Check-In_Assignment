@@ -1,1 +1,8 @@
-# Define each class then import the code. 
+import unittest
+from classes.guest import Guest
+
+class TestGuest(unittest.TestCase):
+
+    def setUp(self):
+        self.guest = ("Ned Flanders", 200)
+        
