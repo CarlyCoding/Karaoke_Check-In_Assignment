@@ -9,6 +9,13 @@ class TestRoom(unittest.TestCase):
         self.room3 = Rooms("Room Three", 15)
         self.room4 = Rooms("Room Four", 40)
 
+    def test_room_has_name(self):
+        self.assertEqual("Room Two", self.room2.name)
+
+    def test_room_has_price(self):
+        self.assertEqual(40, self.room4.price)
+    
+
     
 
 

@@ -11,3 +11,5 @@ class TestCaraoke(unittest.TestCase):
 
     def test_caraoke_has_till(self):
         self.assertEqual(6500, self.caraoke.till)
+
+    
