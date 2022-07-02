@@ -8,7 +8,7 @@ if __name__ == '__main__':
     unittest.main()
 
 # Need to
-# Write code to check in guests to rooms
+
 # Write to check out the guests
 # Add songs to rooms when selected.
 # Stop guests from checking in a room if more than 0

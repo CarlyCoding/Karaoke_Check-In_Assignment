@@ -23,4 +23,13 @@ class TestRoom(unittest.TestCase):
         self.room2.check_in_guest(Guest("Marge Simpson", 100))
         self.assertEqual (1, len(self.room2.guests))
 
+    def test_guests_can_check_out_of_room(self):
+        guest = Guest("Snake", 600)
+        self.room3.check_in_guest(guest)
+        self.assertEqual (1, len(self.room3.guests))
+        self.room3.check_out_guest(guest)
+        self.assertEqual (0, len(self.room3.guests))
 
+    
+
+    
