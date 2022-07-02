@@ -9,4 +9,5 @@ class TestCaraoke(unittest.TestCase):
     def test_caraoke_has_name(self):
         self.assertEqual("Be Sharps", self.caraoke.name)
 
-    
+    def test_caraoke_has_till(self):
+        self.assertEqual(6500, self.caraoke.till)
