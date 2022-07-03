@@ -1,5 +1,6 @@
 import unittest
 from classes.guest import Guest
+from classes.caraoke import Caraoke
 
 class TestGuest(unittest.TestCase):
 
@@ -15,7 +16,8 @@ class TestGuest(unittest.TestCase):
 
     def test_guest_has_wallet(self):
         self.assertEqual =(100, self.guest4.wallet)
-    
-    
 
-
+    def test_guest_can_pay_entry_fee(self):
+        self.assertEqual(True, self.guest3.can_guest_pay_entry_fee())
+        
+    

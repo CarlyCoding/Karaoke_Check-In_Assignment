@@ -11,7 +11,6 @@ class TestRoom(unittest.TestCase):
         self.room3 = Room("Room Three", 15)
         self.room4 = Room("Room Four", 40)
         
-        
 
     def test_room_has_name(self):
         self.assertEqual("Room Two", self.room2.name)
