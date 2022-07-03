@@ -8,6 +8,5 @@ if __name__ == '__main__':
     unittest.main()
 
 # Need to
-
 # Stop guests from checking in a room if more than 0
 # Check entry fee can be paid for by guest.  

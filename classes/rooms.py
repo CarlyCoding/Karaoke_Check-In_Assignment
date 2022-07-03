@@ -19,4 +19,11 @@ class Room:
     def add_song_to_room(self, song):
         self.songs.append(song)
 
+    def is_room_full(self):
+        if len(self.guests) >= 1:
+            return True
+        else:
+            return False
+
+
 
